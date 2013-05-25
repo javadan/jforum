@@ -564,4 +564,3 @@ CREATE TABLE jforum_announcement
   text VARCHAR(1024) NOT NULL,
   PRIMARY KEY (sequence_number)
 ) ENGINE=InnoDB;
-
