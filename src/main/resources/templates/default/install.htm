@@ -238,7 +238,6 @@ function enableNativeFields()
 							<select name="database" onchange="changeDbPort(this.value);">
 								<option value="mysql" <#if database?default("") == "mysql">selected="selected"</#if>>MySQL</option>
 								<option value="postgresql" <#if database?default("") == "postgresql">selected="selected"</#if>>PostgreSQL</option>
-								<option value="oracle" <#if database?default("") == "oracle">selected="selected"</#if>>Oracle</option>
 								<option value="hsqldb" <#if database?default("") == "hsqldb">selected="selected"</#if>>HSQLDB</option>
 								<option value="sqlserver" <#if database?default("") == "sqlserver">selected="selected"</#if>>SQL Server</option>
 							</select>
